@@ -12,7 +12,15 @@
     window.$docsify = {
         loadSidebar: true,
         subMaxLevel: 2,
-        coverpage: true
+        coverpage: true,
+        search: {
+          placeholder: {
+            '/': '搜索'
+          },
+          noData: {
+            '/': '找不到结果'
+          }
+      }
     }
   </script>
   <script src="/eblog/lib/docsify.min.js"></script>
